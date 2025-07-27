@@ -120,7 +120,7 @@ gem "spree_emails", spree_opts
 gem "spree_sample", spree_opts
 gem "spree_admin", spree_opts
 gem "spree_storefront", spree_opts
-gem "spree_i18n"
+gem "spree_i18n", git: "https://github.com/melmali2828/spree_i18n", branch: "main"
 gem "spree_stripe"
 gem "spree_google_analytics", "~> 1.0"
 gem "spree_klaviyo", "~> 1.0"
