@@ -99,7 +99,7 @@ gem 'sentry-sidekiq'
 
 # Spree gems
 spree_opts = '~> 5.1'
-gem "spree", git: "https://github.com/melmali2828/spree", branch: "main"
+gem "spree", spree_opts
 gem "spree_emails", spree_opts
 gem "spree_sample", spree_opts
 gem "spree_admin", spree_opts
@@ -109,4 +109,4 @@ gem "spree_stripe"
 gem "spree_google_analytics", "~> 1.0"
 gem "spree_klaviyo", "~> 1.0"
 gem "spree_paypal_checkout", "~> 0.5"
-gem "aws-sdk-s3", require: false
+gem "aws-sdk-s3"
